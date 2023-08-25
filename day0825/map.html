@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>이미지 자체에 링크 설정</h2>
+<a href="https://www.gwanak.go.kr/site/gwanak/main.do"><img src="http://localhost/html_prj/day0825/images/seoul_map.png"/></a>
+
+<h2>map 사용</h2>
+<map name="" id="seoul_map">
+<area shape="rect"coords="180,268,218,286"href="https://www.gwanak.go.kr/site/gwanak/main.do"
+	title="동작구청">
+<area shape="circle"coords="272,129,20"href="https://www.sb.go.kr/main/mainPage.do"title="성북구청">
+</map>
+<img src="images/seoul_map.png"usemap="#seoul_map"/>
+
+<hr>hcy 이미지 사용<br>
+<map name="hcy_map"id="hcy_map">
+<area shape="rect"coords="63,95,117,112"href="https://highvom.com"title="홍찬영코">
+<area shape="circle"coords="89,130,20"href="http://www.gangnam-top.com"title="홍찬영입">
+
+</map>
+<img src="../common/images/hcy.png"usemap="#hcy_map">
+</body>
+</html>
